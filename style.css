@@ -1,5 +1,6 @@
 body{
     font-family: serif;
+    margin: 2px;
 }
 
 header{
@@ -19,7 +20,7 @@ main{
 
 footer{
     background-color: rgb(21, 64, 129);
-    height: 120px;
+    height: 100px;
 }
 
 .bg-white{
@@ -27,7 +28,7 @@ footer{
 }
 
 .border-blk{
-    border: 5px solid black;
+    border: 2px solid black;
     padding: 0;
 }
 
@@ -57,7 +58,7 @@ footer{
     margin-left: 3em;
     padding-left: 100px;
     margin-right: 1em;
-    width: 380px;
+    width: 400px;
 
 }
 
@@ -88,12 +89,12 @@ footer{
 
 .img {
   margin-top: 10px;
-  height: 120px;
+  height: 100px;
   width: 180px;
 }
 
 .addText{
-    font-size: 10pt;
+    font-size: 12pt;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
