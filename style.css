@@ -3,19 +3,22 @@ body{
 }
 
 header{
-    background-color: rgb(9, 9, 129);
-    font-size: 16pt;
+    background-color: rgb(21, 64, 129);
+    font-size: 14pt;
     padding-top: 1px;
-    height: 80px;
+    height: 70px;
 }
 
 main{
+    justify-content: space-evenly;
     position: relative;
-    min-height: 100%
+    min-height: 300px;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 footer{
-    background-color: rgb(9, 9, 129);
+    background-color: rgb(21, 64, 129);
     height: 120px;
 }
 
@@ -29,12 +32,8 @@ footer{
 }
 
 .borderTop{
-    border-top: 15px solid rgb(146, 177, 235);
+    border-top: 15px solid rgb(160, 186, 235);
     
-}
-
-.text{
-    text-align: inherit;
 }
 
 .text-white{
@@ -45,21 +44,26 @@ footer{
     text-align: center;
 }
 
+.center-noWrap{
+    text-align: center;
+    white-space: nowrap;
+}
+
 .flexed{
     display: flex;
 }
 
 .whyImportant  {
-    
+    margin-left: 3em;
     padding-left: 100px;
-    margin-right: 1.5em;
-    width: 70%;
+    margin-right: 1em;
+    width: 380px;
 
 }
 
 .addSite{
     margin-right: 1.5em;
-    width: 30%
+    width: 300px
 }
 
 .pAside{
@@ -69,10 +73,11 @@ footer{
     height: 200px;
     min-width: 150px;
     max-width: 150px;
-    margin-bottom: 50px;
+    
 }
 
 .pLR{
+    max-width: 500px;
     padding: 0px 50px;
     margin-left: 20px;
 }
@@ -88,7 +93,17 @@ footer{
 }
 
 .addText{
+    font-size: 10pt;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
+}
+
+.m-0{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.mb-0{
+    margin-bottom: 0;
 }
