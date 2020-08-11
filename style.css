@@ -4,7 +4,7 @@ body{
 
 header{
     background-color: rgb(21, 64, 129);
-    font-size: 14pt;
+    font-size: 13pt;
     padding-top: 1px;
     height: 70px;
 }
@@ -23,7 +23,7 @@ footer{
 }
 
 .bg-white{
-    background-color: rgb(238, 235, 235);
+    background-color: rgb(228, 220, 220);
 }
 
 .border-blk{
@@ -89,7 +89,7 @@ footer{
 .img {
   margin-top: 10px;
   height: 120px;
-  width: 160px;
+  width: 180px;
 }
 
 .addText{
