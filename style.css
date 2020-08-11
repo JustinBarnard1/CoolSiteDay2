@@ -1,0 +1,32 @@
+header{
+    background-color: rgb(9, 9, 129);
+    font-size: 16pt;
+    padding-top: 1px;
+    height: 80px;
+}
+
+.bg-white{
+    background-color: rgb(238, 235, 235);
+}
+
+.border-blk{
+    border: 5px solid black;
+    padding: 0;
+}
+
+.border-top{
+    border-top: 10px;
+    border-color: rgb(146, 177, 235);
+}
+
+.text-white{
+    color: rgb(235, 229, 229);
+}
+
+.centerText{
+    text-align: center;
+}
+
+.flexed{
+    display: flex;
+}
